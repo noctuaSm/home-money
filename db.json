@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "wfm@mail.ru",
+      "password": "12345678",
+      "name": "Administrator"
+    }
+  ],
+  "bill": {
+    "value": 94600,
+    "currency": "EUR"
+  },
+  "categories": [
+    {
+      "name": "House",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Food",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Car",
+      "capacity": 7000
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.02.2019 19:49:02",
+      "description": "Gave the food away"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.02.2019 19:49:02",
+      "description": "Bought a dishwasher"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.02.2019 14:00:48",
+      "id": 3,
+      "description": "A restaurant. Free food"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.02.2019 14:00:58",
+      "id": 4,
+      "description": "Weekly purchase"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.02.2019 14:01:58",
+      "id": 5,
+      "description": "Refueling gasoline + pass MOT"
+    },
+    {
+      "type": "outcome",
+      "amount": 1200,
+      "category": 3,
+      "date": "02.02.2019 23:28:48",
+      "description": "Test",
+      "id": 6
+    }
+  ]
+}
